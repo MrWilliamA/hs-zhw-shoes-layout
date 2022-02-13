@@ -110,6 +110,8 @@ iframe {
   margin: 0 auto;
 }
 
+.wrapper div { float: left; width: 29.333%; }
+
 .shadow {
   box-shadow: 0 3px 10px #333;
 }
@@ -118,12 +120,13 @@ iframe {
   font: bold 42px 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
-  margin: 0 0 10px;
+  margin: 12px 0 10px;
 }
 
 .border_right {
   border-right: 1px dotted #ccc;
   padding-right: 20px;
+  margin-right: 2%;
 }
 
 .thumbs_up {
@@ -263,6 +266,10 @@ section a {
   color: #555;
   text-decoration: underline;
 }
+
+.Featured { float: left; width: 64.666%; margin: 1%; }
+
+.third { float: left; width: 31.333%; margin: 1%; }
 
 /********** Details **********/
 
